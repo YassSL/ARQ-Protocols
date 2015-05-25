@@ -1,0 +1,9 @@
+all : GBN_all
+
+GBN_all : GBN.cpp
+	  g++ -g -o GBN  GBN.cpp
+	 ./GBN
+
+	
+
+clean: rm -rf GBN

@@ -1,0 +1,7 @@
+all : ABP_NAK_all
+
+ABP_NAK_all : ABP_NAK.cpp
+	 g++ -g -o ABP_NAK  ABP_NAK.cpp
+	 ./ABP_NAK
+
+clean: rm -rf ABP_NAK

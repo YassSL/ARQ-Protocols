@@ -1,0 +1,7 @@
+all : ABP_all
+
+ABP_all : ABP.cpp
+	 g++ -g -o ABP  ABP.cpp
+	 ./ABP
+
+clean: rm -rf ABP
